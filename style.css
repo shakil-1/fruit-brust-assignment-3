@@ -1,4 +1,7 @@
-
+.date-section{
+    display: flex;
+    justify-content: space-between;
+}
 
 .team{
     display: flex;
@@ -10,7 +13,7 @@
 
 
 @media screen and (max-width: 600px) {
-    .team{
+    .team,.date-section{
         flex-direction: column;
     }
     .team h2,p{

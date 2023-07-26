@@ -67,7 +67,7 @@
                 </div>
               </ul>
             </div>
-            <div class="sm:hidden ">
+            <div class=" ">
               <a class="text-[18px] font-medium text-[#FFF] ml-7" href="">Home</a>
               <a class="text-[18px] font-medium text-[#FFF] ml-7" href="">About Us</a>
               <a class="text-[18px] font-medium text-[#FFF] ml-7" href="">Shop</a>
@@ -202,7 +202,7 @@
     <!-- Deal of the day section start heare  -->
     <main class=" lg:w-[1440px] mx-auto">
     <section class="py-16">
-        <div class="flex flex-col  justify-between ">
+        <div class="date-section text-center ">
           <div class="">
             <h2 class=" text-5xl font-extrabold text-[#121212]">Deal of the day</h2>
             <p class=" text-gray-600 text-base font-medium mt-6 px-2 ">
@@ -212,7 +212,7 @@
             </p>
           </div>
          
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max text-[#121212] pt-4">
+            <div class="grid grid-flow-col gap-5 text-center mx-auto auto-cols-max text-[#121212] pt-4">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span class="text-5xl font-extrabold" style="--value:15;"></span>
@@ -244,7 +244,7 @@
       <!-- Deal of the day section end heare  -->
 
       <!-- card section start heare  -->
-    <!-- <section >
+    <section >
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
           <div
             class="card px-12 border-borderColor border bg-textColor rounded-lg text-center mx-auto "
@@ -308,10 +308,8 @@
                 class="bg-bgPrimary mask mask-star-2 mask-half-2"
               />
             </div>
-            <h4
-              class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer"
-            >
-            <div class="dropdown dropdown-top">
+            <h4>
+            <!-- <div class="dropdown dropdown-top">
               <label tabindex="0" class=" m-1">Details</label>
               <ul tabindex="0" class="dropdown-content z-[1] menu p-2    rounded-box ">
                 <div
@@ -382,8 +380,85 @@
               <button class="btn bg-bgPrimary text-white border-0">Buy Now</button>
             </div>
               </ul>
-            </div>
-            </h4>
+            </div> -->
+            <!-- The button to open modal -->
+
+<label for="my_modal_7" class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer">Details</label>
+
+<input type="checkbox" id="my_modal_7" class="modal-toggle" />
+<div class="modal">
+  <div class="bg-white rounded-2xl">
+    <figure>
+      <img class="w-auto py-4 " src="./images/fruit6.png" alt="Shoes" />
+    </figure>
+    <p class="text-black text-2xl font-extrabold py-2 ">Apples</p>
+    <p class="text-base text-gray-600 py-6 px-4 text-center">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <div class="rating rating-lg rating-half pt-6 mx-auto">
+      <input type="radio" name="rating-10" class="rating-hidden" />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+        checked
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      
+    </div>
+
+    <div class="flex justify-around mt-6 py-4">
+          
+      <label class="btn btn-outline btn-error" for="my_modal_7">Close</label>
+      <button class="btn bg-bgPrimary text-white border-0">Buy Now</button>
+    </div>
+      </div>
+    
+    </div>
+
+        </h4>
           </div>
           <div
             class="card px-12 border-borderColor border bg-textColor rounded-lg text-center mx-auto"
@@ -450,77 +525,81 @@
             <h4
               class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer"
             >
-            <div class="dropdown dropdown-top">
-              <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2    rounded-box ">
-                <div
-            class="card px-10  border-gray-500 border bg-textColor rounded-lg text-center py-2"
-          >
-            <figure>
-              <img class=" " src="./images/fruit7.png" alt="Shoes" />
-            </figure>
-            <p class="text-black text-2xl font-extrabold">Orange</p>
-            <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            <div class="rating rating-lg rating-half pt-6 mx-auto">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              
-            </div>
-            <div class="pt-10 flex justify-evenly">
-              <button class="btn btn-outline btn-error">Close</button>
+            
+            <label for="my_modal_8" class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer">Details</label>
+
+
+            <input type="checkbox" id="my_modal_8" class="modal-toggle" />
+            <div class="modal">
+              <div class="bg-white rounded-2xl">
+                <figure>
+                  <img class="w-auto py-4 " src="./images/fruit7.png" alt="Shoes" />
+                </figure>
+                <p class="text-black text-2xl font-extrabold py-2 ">Orange</p>
+                <p class="text-base text-gray-600 py-6 px-4 text-center">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+                <div class="rating rating-lg rating-half pt-6 mx-auto">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  
+                </div>
+            
+            <div class="flex justify-around mt-6 py-4">
+                  
+              <label class="btn btn-outline btn-error" for="my_modal_8">Close</label>
               <button class="btn bg-bgPrimary text-white border-0">Buy Now</button>
             </div>
-              </ul>
+              </div>
+             
             </div>
             </h4>
           </div>
@@ -589,77 +668,80 @@
             <h4
               class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer"
             >
-            <div class="dropdown dropdown-top">
-              <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2   rounded-box w-52">
-                <div
-            class="card px-10 border-gray-500 border bg-textColor rounded-lg text-center py-2 mx-auto"
-          >
-            <figure>
-              <img class="mx-auto " src="./images/fruit8.png" alt="Shoes" />
-            </figure>
-            <p class="text-black text-2xl font-extrabold ">Red Dragon</p>
-            <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            <div class="rating rating-lg rating-half pt-6 mx-auto">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              
-            </div>
-            <div class="pt-10 flex justify-evenly">
-              <button class="btn btn-outline btn-error">Close</button>
+            <label for="my_modal_9" class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer">Details</label>
+
+
+            <input type="checkbox" id="my_modal_9" class="modal-toggle" />
+            <div class="modal">
+              <div class="bg-white rounded-2xl">
+                <figure>
+                  <img class="w-auto py-4 " src="./images/fruit8.png" alt="Shoes" />
+                </figure>
+                <p class="text-black text-2xl font-extrabold py-2 ">Red Dragon</p>
+                <p class="text-base text-gray-600 py-6 px-4 text-center">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+                <div class="rating rating-lg rating-half pt-6 mx-auto">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                    checked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-1"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-10"
+                    class="bg-bgPrimary mask mask-star-2 mask-half-2"
+                  />
+                  
+                </div>
+            
+            <div class="flex justify-around mt-6 py-4">
+                  
+              <label class="btn btn-outline btn-error" for="my_modal_9">Close</label>
               <button class="btn bg-bgPrimary text-white border-0">Buy Now</button>
             </div>
-              </ul>
+              </div>
+             
             </div>
             </h4>
           </div>
@@ -728,85 +810,88 @@
             <h4
               class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer"
             >
-            <div class="dropdown dropdown-top">
-              <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2    rounded-box ">
-                <div
-            class="card   border-gray-500 border bg-textColor rounded-lg text-center py-2"
-          >
-            <figure>
-              <img class=" " src="./images/fruit9.png" alt="Shoes" />
-            </figure>
-            <p class="text-black text-2xl font-extrabold ">Banana</p>
-            <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-            <div class="rating rating-lg rating-half pt-6 mx-auto">
-              <input type="radio" name="rating-10" class="rating-hidden" />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-1"
-              />
-              <input
-                type="radio"
-                name="rating-10"
-                class="bg-bgPrimary mask mask-star-2 mask-half-2"
-              />
-              
-            </div>
-            <div class="pt-10 flex justify-evenly">
-              <button class="btn btn-outline btn-error">Close</button>
-              <button class="btn bg-bgPrimary text-white border-0">Buy Now</button>
-            </div>
-              </ul>
-            </div>
+            <label for="my_modal_10" class="text-lg font-bold text-bgPrimary pt-8 pb-12 cursor-pointer">Details</label>
+
+
+<input type="checkbox" id="my_modal_10" class="modal-toggle" />
+<div class="modal">
+  <div class="bg-white rounded-2xl">
+    <figure>
+      <img class="w-auto py-4 " src="./images/fruit9.png" alt="Shoes" />
+    </figure>
+    <p class="text-black text-2xl font-extrabold py-2 ">Banana</p>
+    <p class="text-base text-gray-600 py-6 px-4 text-center">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+    <div class="rating rating-lg rating-half pt-6 mx-auto">
+      <input type="radio" name="rating-10" class="rating-hidden" />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+        checked
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-1"
+      />
+      <input
+        type="radio"
+        name="rating-10"
+        class="bg-bgPrimary mask mask-star-2 mask-half-2"
+      />
+      
+    </div>
+
+<div class="flex justify-around mt-6 py-4">
+      
+  <label class="btn btn-outline btn-error" for="my_modal_10">Close</label>
+  <button class="btn bg-bgPrimary text-white border-0">Buy Now</button>
+</div>
+  </div>
+ 
+</div>
             </h4>
           </div>
         </div>
         <div class="text-center my-12">
           <button class="btn bg-bgPrimary border-0 text-textColor">Shop All</button>
         </div>
-      </section>  -->
+      </section>  
       <!-- card section end  heare  -->
 
       <!-- meet the team section  start heare -->
@@ -941,7 +1026,7 @@
          
             </div>
             <div class="card">
-                <figure><img src="/images/whychoose1.png" alt="Shoes" /></figure>
+                <figure><img class="hover:border hover:border-orange-500 rounded-lg" src="/images/whychoose1.png" alt="Shoes" /></figure>
         </div>
         <div class="text-right  ">
             <div class="team team-right gap-x-6   ">
