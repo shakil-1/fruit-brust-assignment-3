@@ -49,9 +49,10 @@
         font-family: "Lato", sans-serif;
       }
     </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body class="lato-font bg-bgwhite">
-    <header class="w-[1440px] mx-auto">
+    <header class=" lg:w-[1440px] h-[120p] mx-auto">
       <nav class="pt-5">
         <div class="navbar bg-[#F85559] rounded-full ">
           <div class="navbar-start">
@@ -66,7 +67,7 @@
                 </div>
               </ul>
             </div>
-            <div>
+            <div class="sm:hidden ">
               <a class="text-[18px] font-medium text-[#FFF] ml-7" href="">Home</a>
               <a class="text-[18px] font-medium text-[#FFF] ml-7" href="">About Us</a>
               <a class="text-[18px] font-medium text-[#FFF] ml-7" href="">Shop</a>
@@ -89,7 +90,7 @@
         </div>
       </nav>
 
-      <section class="w-[1440px] mx-auto mt-12">
+       <section class=" lg:w-[1440px] mx-auto mt-12">
         <div class="carousel w-full">
           <div id="slide1" class="carousel-item relative w-full">
             <div
@@ -193,25 +194,25 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
     </header>
 
 
 
     <!-- Deal of the day section start heare  -->
-    <main class="w-[1440px] mx-auto">
-      <section class="py-16">
-        <div class="flex justify-between ">
+    <main class=" lg:w-[1440px] mx-auto">
+    <section class="py-16">
+        <div class="flex flex-col  justify-between ">
           <div class="">
             <h2 class=" text-5xl font-extrabold text-[#121212]">Deal of the day</h2>
-            <p class=" text-gray-600 text-base font-medium mt-6">
+            <p class=" text-gray-600 text-base font-medium mt-6 px-2 ">
               Contrary to popular belief, is not simply random text. It has
               roots in a piece of classical <br> Latin literature from 45 BC, making
               it over 2000 years old.
             </p>
           </div>
-          <div class="">
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max text-[#121212]">
+         
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max text-[#121212] pt-4">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span class="text-5xl font-extrabold" style="--value:15;"></span>
@@ -237,19 +238,19 @@
                 Seconds
               </div>
             </div>
-          </div>
+         
         </div>
-      </section>
+      </section> 
       <!-- Deal of the day section end heare  -->
 
       <!-- card section start heare  -->
-      <section>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-">
+    <!-- <section >
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
           <div
-            class="card w-[342px] border-borderColor border bg-textColor rounded-lg text-center"
+            class="card px-12 border-borderColor border bg-textColor rounded-lg text-center mx-auto "
           >
             <figure>
-              <img class="w-28 py-10" src="./images/fruit6.png" alt="Shoes" />
+              <img class=" py-10" src="./images/fruit6.png" alt="Shoes" />
             </figure>
             <h3 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h3>
             <p class="text-gray-500 text-base pt-12">Apples</p>
@@ -312,14 +313,14 @@
             >
             <div class="dropdown dropdown-top">
               <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow   rounded-box w-52">
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2    rounded-box ">
                 <div
-            class="card w-[342px]  border-gray-500 border bg-textColor rounded-lg text-center py-2"
+            class="card px-10  border-gray-500 border bg-textColor rounded-lg text-center py-2"
           >
             <figure>
-              <img class=" " src="./images/fruit6.png" alt="Shoes" />
+              <img class="w-auto " src="./images/fruit6.png" alt="Shoes" />
             </figure>
-            <p class="text-black text-2xl font-extrabold pt-12">Apples</p>
+            <p class="text-black text-2xl font-extrabold ">Apples</p>
             <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             <div class="rating rating-lg rating-half pt-6 mx-auto">
               <input type="radio" name="rating-10" class="rating-hidden" />
@@ -385,10 +386,10 @@
             </h4>
           </div>
           <div
-            class="card w-[342px] border-borderColor border bg-textColor rounded-lg text-center"
+            class="card px-12 border-borderColor border bg-textColor rounded-lg text-center mx-auto"
           >
             <figure>
-              <img class="w-28 py-12" src="./images/fruit7.png" alt="Shoes" />
+              <img class="w-auto py-12" src="./images/fruit7.png" alt="Shoes" />
             </figure>
             <h3 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h3>
             <p class="text-gray-500 text-base pt-12">Orange</p>
@@ -451,14 +452,14 @@
             >
             <div class="dropdown dropdown-top">
               <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow   rounded-box w-52">
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2    rounded-box ">
                 <div
-            class="card w-[342px]  border-gray-500 border bg-textColor rounded-lg text-center py-2"
+            class="card px-10  border-gray-500 border bg-textColor rounded-lg text-center py-2"
           >
             <figure>
               <img class=" " src="./images/fruit7.png" alt="Shoes" />
             </figure>
-            <p class="text-black text-2xl font-extrabold pt-12">Orange</p>
+            <p class="text-black text-2xl font-extrabold">Orange</p>
             <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             <div class="rating rating-lg rating-half pt-6 mx-auto">
               <input type="radio" name="rating-10" class="rating-hidden" />
@@ -524,10 +525,10 @@
             </h4>
           </div>
           <div
-            class="card w-[342px]  border-borderColor border bg-textColor rounded-lg text-center"
+            class="card px-12 border-borderColor border bg-textColor rounded-lg text-center mx-auto"
           >
             <figure>
-              <img class="w-28 py-12" src="./images/fruit8.png" alt="Shoes" />
+              <img class="w-auto py-12" src="./images/fruit8.png" alt="Shoes" />
             </figure>
             <h3 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h3>
             <p class="text-gray-500 text-base pt-12">Red Dragon</p>
@@ -590,14 +591,14 @@
             >
             <div class="dropdown dropdown-top">
               <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow   rounded-box w-52">
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2   rounded-box w-52">
                 <div
-            class="card w-[342px]  border-gray-500 border bg-textColor rounded-lg text-center py-2"
+            class="card px-10 border-gray-500 border bg-textColor rounded-lg text-center py-2 mx-auto"
           >
             <figure>
-              <img class=" " src="./images/fruit8.png" alt="Shoes" />
+              <img class="mx-auto " src="./images/fruit8.png" alt="Shoes" />
             </figure>
-            <p class="text-black text-2xl font-extrabold pt-12">Red Dragon</p>
+            <p class="text-black text-2xl font-extrabold ">Red Dragon</p>
             <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             <div class="rating rating-lg rating-half pt-6 mx-auto">
               <input type="radio" name="rating-10" class="rating-hidden" />
@@ -663,10 +664,10 @@
             </h4>
           </div>
           <div
-            class="card w-[342px]  border-borderColor border bg-textColor rounded-lg text-center"
+            class="card px-12  border-borderColor border bg-textColor rounded-lg text-center mx-auto"
           >
             <figure>
-              <img class="w-28 py-12" src="./images/fruit9.png" alt="Shoes" />
+              <img class="w-auto py-12" src="./images/fruit9.png" alt="Shoes" />
             </figure>
             <h3 class="text-[#121212] text-2xl font-bold">12.90$ - 18.85$</h3>
             <p class="text-gray-500 text-base pt-12">Banana</p>
@@ -729,14 +730,14 @@
             >
             <div class="dropdown dropdown-top">
               <label tabindex="0" class=" m-1">Details</label>
-              <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow   rounded-box w-52">
+              <ul tabindex="0" class="dropdown-content z-[1] menu p-2    rounded-box ">
                 <div
-            class="card w-[342px]  border-gray-500 border bg-textColor rounded-lg text-center py-2"
+            class="card   border-gray-500 border bg-textColor rounded-lg text-center py-2"
           >
             <figure>
               <img class=" " src="./images/fruit9.png" alt="Shoes" />
             </figure>
-            <p class="text-black text-2xl font-extrabold pt-12">Banana</p>
+            <p class="text-black text-2xl font-extrabold ">Banana</p>
             <p class="text-base text-gray-600 mt-6">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             <div class="rating rating-lg rating-half pt-6 mx-auto">
               <input type="radio" name="rating-10" class="rating-hidden" />
@@ -805,13 +806,13 @@
         <div class="text-center my-12">
           <button class="btn bg-bgPrimary border-0 text-textColor">Shop All</button>
         </div>
-      </section>
+      </section>  -->
       <!-- card section end  heare  -->
 
       <!-- meet the team section  start heare -->
       <section
         style="background-image: url('./images/team.png')"
-        class="h-[690px]"
+        class="bg-cover bg-center py-6"
       >
         <div class="text-center pt-28">
           <h1 class="text-textColor text-5xl font-extrabold">
@@ -896,12 +897,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> 
       <!-- meet the team section  end heare -->
 
       <!-- choose section start heare -->
-      <section>
-        <div class="text-center pt-28">
+       <section>
+        <div class="text-center pt-12 lg:pt-28">
           <h1 class="text-textColor text-5xl font-extrabold">Why Choose Us</h1>
           <p class="text-textColor text-base font-medium mt-6">
             Contrary to popular belief, is not simply random text. It has roots
@@ -909,73 +910,73 @@
             Latin literature from 45 BC, making it over 2000 years old.
           </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-12">
-            <div>
-                <div class="flex gap-x-6  items-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pt-12 mx-auto px-4 py-2">
+            <div class="">
+                <div class="team gap-x-6  ">
                     <i class="w-[60px] h-[60px] p-4 rounded-full bg-bgColor text-2xl  fa-solid fa-user-group"></i>
-                    <div>
+                    <div class="">
                         <h2 class=" text-[#121212] text-2xl font-extrabold ">Dedicated Team</h2>
-                        <div class="w-[100px] h-[1px] bg-[#121212] mt-2"></div>
+                        <h1 class=" w-[100px] h-[1px]  bg-[#121212] mt-2"></h1>
                         <p class="text-base font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                     </div>
                 </div>
          
-                <div class="flex gap-x-6  items-center pt-10">
+                <div class="team gap-x-6  pt-10">
                   <i class="w-[60px] h-[60px] p-4 rounded-full bg-bgColor text-2xl  fa-solid fa-heart-circle-bolt"></i>
                   <div>
                       <h2 class=" text-[#121212] text-2xl font-extrabold ">Dedicated Team</h2>
-                      <div class="w-[100px] h-[1px] bg-[#121212] mt-2"></div>
+                      <h1 class="w-[100px] h-[1px] bg-[#121212] mt-2"></h1>
                       <p class="text-base font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
               </div>
   
-                <div class="flex gap-x-6  items-center pt-10">
+                <div class="team gap-x-6  pt-10">
                   <i class="w-[60px] h-[60px] p-4 rounded-full bg-bgColor text-2xl  fa-solid fa-gift"></i>
                   <div>
                       <h2 class=" text-[#121212] text-2xl font-extrabold ">Dedicated Team</h2>
-                      <div class="w-[100px] h-[1px] bg-[#121212] mt-2"></div>
+                      <h1 class="w-[100px] h-[1px] bg-[#121212] mt-2"></h1>
                       <p class="text-base font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
               </div>
          
             </div>
-            <div class="card   shadow-xl">
+            <div class="card">
                 <figure><img src="/images/whychoose1.png" alt="Shoes" /></figure>
         </div>
-        <div class="text-right">
-            <div class="flex gap-x-6  items-center text-right">
-              <div>
+        <div class="text-right  ">
+            <div class="team team-right gap-x-6   ">
+              <div >
                   <h2 class=" text-[#121212] text-2xl font-extrabold ">Dedicated Team</h2>
-                  <div class="w-[100px] h-[1px] bg-[#121212] mt-2"></div>
-                  <p class="text-base font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <h1 class="w-[100px] ml-72 h-[1px] bg-[#121212] mt-2"></h1>
+                  <p class="text-base  font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
               <i class="w-[60px] text-right h-[60px] p-4 rounded-full bg-bgColor text-2xl fa-solid fa-mug-hot"></i>
           </div>
    
-          <div class="flex gap-x-6  items-center pt-10">
+          <div class="team team-right gap-x-6  pt-10">
             <div>
                 <h2 class=" text-[#121212] text-2xl font-extrabold ">Dedicated Team</h2>
-                <div class="w-[100px] text-right h-[1px] bg-[#121212] mt-2"></div>
+                <h1 class="w-[100px] ml-72 text-right h-[1px] bg-[#121212] mt-2"></h1>
                 <p class="text-base font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <i class="w-[60px] h-[60px] p-4 rounded-full bg-bgColor text-2xl  fa-solid fa-ice-cream"></i>
         </div>
 
-          <div class="flex gap-x-6  items-center pt-10 ">
+          <div class="team team-right gap-x-6  pt-10 ">
             <div>
                 <h2 class=" text-[#121212] text-2xl font-extrabold ">Dedicated Team</h2>
-                <div class="w-[100px]   h-[1px] bg-[#121212] mt-2"></div>
+                <h1 class="w-[100px] ml-72  h-[1px] bg-[#121212] mt-2"></h1>
                 <p class="text-base font-medium mt-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <i class="w-[60px] h-[60px] p-4 rounded-full bg-bgColor text-2xl  fa-regular fa-thumbs-up"></i>
         </div>
    
         </div>
-      </section>
+      </section> 
       <!-- choose section end heare -->
     </main>
     <!-- start footer section  -->
- <footer class="bg-[#121212] h-[526px] flex justify-center items-center mx-auto mt-20  ">
+ <footer class="bg-[#121212] py-6 flex justify-center items-center mx-auto mt-20  ">
 <div class="text-center mx-auto">
   
   <div class="flex mx-auto gap-2 justify-center items-center pt-4 ">
@@ -990,7 +991,7 @@
       <p class="">Support</p>
       <p class="">My Account</p>
     </div>
-    <div class="flex mx-auto gap-x-10 justify-center items-center pt-14 flex-wrap ">
+    <div class="flex mx-auto gap-x-6 justify-center items-center pt-6 flex-wrap ">
       <i
         class="w-7 justify-center h-7 rounded-2xl text-2xl bg-white text-blue-600 fa-brands fa-facebook-f"
       ></i>
@@ -1010,9 +1011,8 @@
         class="w-6 justify-center h-6 rounded-2xl text-2xl  fa-brands fa-apple"
       ></i>
     </div>
-    
-</div>
-    </footer>
+   </div>
+    </footer> 
     <!-- end footer section  -->
   </body>
 </html>

@@ -1,0 +1,30 @@
+
+
+.team{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .team{
+        flex-direction: column;
+    }
+    .team h2,p{
+        text-align: center;
+    }
+    .team h1{
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .team-right{
+        flex-direction: column-reverse;
+    }
+    .team-right p{
+        padding: 10px;
+        }
+        
+}
