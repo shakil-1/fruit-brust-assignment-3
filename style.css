@@ -29,5 +29,10 @@
     .team-right p{
         padding: 10px;
         }
-        
+      .item{
+        display: none;
+      }  
+      .over-section{
+        display: none;
+      }
 }
