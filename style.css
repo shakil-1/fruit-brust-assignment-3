@@ -12,7 +12,7 @@
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
     .team,.date-section{
         flex-direction: column;
     }
@@ -32,17 +32,20 @@
       .item{
         display: none;
       }  
-      .over-section{
+      #over-section{
+        display: none;
+       
+      }
+      .aaa{
         display: none;
       }
 }
+
 @media screen and (min-width:577px) and (max-width:960px) {
-    .over-section{
+    #over-section{
         display: none!important;
       }
-}
-@media screen and (min-width:960px) and (max-width:1100px) {
-    .over-section{
-        display: none!important;
+      .aaa{
+        display: none;
       }
 }
